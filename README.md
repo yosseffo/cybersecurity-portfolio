@@ -1,7 +1,6 @@
-# Hello, I'm Yossef
+# Hey! I'm Yossef
 <a href="https://linkedin.com/in/yossef-fouad-285b61250/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-[Brief Introduction - Remove this afterwards]
 I am a recent graduate working as a Technical Support Analyst at Genius Sports. I'm looking towards elevating my technical expertise to branch to the field of Cyber Security as I have a passion of protecting the assets of users. 
 
 ## Objective
