@@ -12,17 +12,18 @@ In order to resolve this issue, Secure Copy Protocol (SCP) was utilized in order
 ### Steps Taken
 1. Verified SSH accessibility on the Ubuntu Server VM
 2. Identified VM IP address using;
-   '''bash
+   ``` bash
    ip a
-   '''
+   ``` 
 3. Opened macOS terminal on host machine
 4. Used SCP to transfer package
-   '''bash
+   ``` bash
    scp~/Desktop/splunk*.deb username@<VM-IP>:/home/username
+   ```
 5. Verified file transfer within Ubuntu using;
-   '''bash
+   ``` bash
    sudo dpkg -i splunk*.deb
-   '''
+   ```
 
 ### Key Takeaways
 Throughout this process of troubleshooting, I was able to familiarize myself with:
