@@ -31,7 +31,8 @@ Throughout this process of troubleshooting, I was able to familiarize myself wit
 - VMware virtualization limitations
 - Ubuntu Server networking behavior
 - Alternative deployment methodologies
-- Infrastructure troubleshooting and adaptation.
+- Infrastructure troubleshooting and adaptation
+______________
 
 ## Splunk Service User Configuration
 During initial deployment, Splunk was installed under the root user, which resulted in service startup instability and failure of Splunkd (daemon) to function. 
@@ -39,12 +40,12 @@ This was due to policy changes from Splunk where running as a root user is depre
 To resolve this issue, a dedicated service account was created where ownership of the Splunk installation directory was reallocated.
 Splunk was configured to run as a non-root service using its built in boot-start
 
-# Commands used:
+## Commands used:
 sudo useradd -m splunk
 sudo chown -R splunk:splunk /opt/splunk
 sudo /opt/splunk/bin/splunk enable boot-start -user splunk
 
-##Outcome
+## Outcome
 Splunkd was able to run stablized under the dedicated account.
 
 (Splunk confirmation screenshot)
