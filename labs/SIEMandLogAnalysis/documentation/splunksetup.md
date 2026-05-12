@@ -41,6 +41,7 @@ To resolve this issue, a dedicated service account was created where ownership o
 Splunk was configured to run as a non-root service using its built in boot-start
 
 ## Commands used:
+``` bash
 sudo useradd -m splunk
 sudo chown -R splunk:splunk /opt/splunk
 sudo /opt/splunk/bin/splunk enable boot-start -user splunk
