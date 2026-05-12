@@ -37,8 +37,11 @@ ______________
 
 ## Splunk Service User Configuration
 During initial deployment, Splunk was installed under the root user, which resulted in service startup instability and failure of Splunkd (daemon) to function. 
+
 This was due to policy changes from Splunk where running as a root user is deprecated and blocked by default. 
+
 To resolve this issue, a dedicated service account was created where ownership of the Splunk installation directory was reallocated.
+
 Splunk was configured to run as a non-root service using its built in boot-start
 
 ## Commands used:
