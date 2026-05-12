@@ -18,7 +18,7 @@ In order to resolve this issue, Secure Copy Protocol (SCP) was utilized in order
 3. Opened macOS terminal on host machine
 4. Used SCP to transfer package
    '''bash
-   scp~/Desktop/splunk*.deb usernam@<VM-IP>:/home/username
+   scp~/Desktop/splunk*.deb username@<VM-IP>:/home/username
 5. Verified file transfer within Ubuntu using;
    '''bash
    sudo dpkg -i splunk*.deb
