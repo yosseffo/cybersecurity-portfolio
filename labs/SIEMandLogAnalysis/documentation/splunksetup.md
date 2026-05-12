@@ -45,6 +45,7 @@ Splunk was configured to run as a non-root service using its built in boot-start
 sudo useradd -m splunk
 sudo chown -R splunk:splunk /opt/splunk
 sudo /opt/splunk/bin/splunk enable boot-start -user splunk
+``` bash
 
 ## Outcome
 Splunkd was able to run stablized under the dedicated account.
