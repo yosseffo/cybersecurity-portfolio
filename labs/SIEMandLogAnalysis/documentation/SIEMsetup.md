@@ -34,7 +34,7 @@ The Splunk `.deb` installer was originally downloaded on the macOS host machine.
 
 At first, I tried to move the file into the Ubuntu VM using VMware drag and drop and shared folders, but those options were not available because VMware Tools were not installed and running inside the Ubuntu Server VM.
 
-I also tried using `wget`, but copying and pasting the long Splunk download URL into the VM was unreliable.
+I also tried using `wget`, but copying and pasting the long Splunk download URL into the VM was giving me issues with hotkey inputs.
 
 The working solution was to transfer the package from macOS to Ubuntu using SCP.
 
