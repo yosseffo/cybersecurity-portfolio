@@ -104,7 +104,7 @@ This confirmed that attacker activity generated from Kali could be logged by Met
 
 ---
 
-## Key Milestones Completed
+## Key Milestones I've Noted
 
 - Built a dedicated homelab on a repurposed MacBook Pro
 - Installed and configured VMware Fusion
