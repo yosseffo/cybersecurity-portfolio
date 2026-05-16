@@ -71,7 +71,7 @@ The upgrade helped improve:
 
 I used VMware Fusion as the Type-2 hypervisor for this lab.
 
-I chose VMware Fusion because it works well on macOS and gives enough control over VM networking, CPU, memory, and disk resources. It also gave me experience with a virtualization platform that is closer to what is commonly used in professional environments.
+I chose VMware Fusion because its compatible on macOS and gives enough control over VM networking, CPU, memory, and disk resources. It also gave me experience with a virtualization platform that is closer to what is commonly used in professional environments.
 
 ### Why VMware Fusion was useful
 
@@ -189,7 +189,7 @@ This was the better option for the final lab because it kept the vulnerable envi
 
 This setup allowed the lab to function without exposing vulnerable services to my home network.
 
-### Why isolation mattered
+### Importance of isolation
 
 The lab was isolated to:
 
@@ -256,12 +256,10 @@ The main safety decisions were:
 - Keep vulnerable systems isolated
 - Use Private to My Mac for the final lab network
 - Only run the VMs needed for the current task
-- Avoid publishing credentials in GitHub
-- Document the design without exposing sensitive details
 
 ---
 
-## Current Lab Status
+## Lab Checklist
 
 | Component | Status |
 |---|---|
