@@ -42,7 +42,6 @@ Benefits of hardware restoration I noticed:
 - More reliable power behavior
 - Better hardware stability
 - Reducing risk while running multiple virtual machines
-- Preparing the laptop to be used as a dedicated lab host
 
 Photos were taken during the battery replacement process and will be stored under:
 
