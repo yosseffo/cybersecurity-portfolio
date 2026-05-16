@@ -220,6 +220,6 @@ Planned improvements for this lab include:
 
 This lab gave me hands-on experience building a working SIEM environment from the ground up.
 
-The most important part of the project was validating the full security event pipeline: generating activity from an attacker VM, logging it on a vulnerable target, forwarding it through syslog, ingesting it into Splunk, and confirming the event was searchable.
+The the core process of the project was validating the full security event pipeline: generating activity from an attacker VM, logging it on a vulnerable target, forwarding it through syslog, ingesting it into Splunk, and confirming the event was searchable.
 
 This project strengthened my understanding of virtualization, Linux administration, log forwarding, Splunk configuration, and practical troubleshooting in a cybersecurity lab environment.
