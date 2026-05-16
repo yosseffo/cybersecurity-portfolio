@@ -4,7 +4,7 @@
 
 The project documents the progress of a security home lab focusing on SIEM deployment, log analysis, networks segmentation, and attack simulation using virtualized infrastructure.
 
-The environment used was a 2019 used Macbook Pro utilizing VMware Fusion and consists of multiple isolated virtual machines designed to simulate a simplistic enterprise security architecture
+The environment used was a 2019 used Macbook Pro utilizing VMware Fusion to emulate an organization security architecture. This was setup with an attacker machine, vulnerable target machine, and a centralized SIEM server. 
 
 ## Goals of Project
 - Deploy and configure a SIEM platform
