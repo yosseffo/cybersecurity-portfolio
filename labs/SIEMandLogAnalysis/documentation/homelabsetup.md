@@ -24,7 +24,7 @@ The lab includes:
 | Original OS | macOS Mojave 10.14.6 |
 | Updated OS | macOS Sequoia |
 | Hypervisor | VMware Fusion |
-| Starting Available Storage | About 98.95 GB |
+| Starting Available Storage | 98.95 GB |
 
 ---
 
