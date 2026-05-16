@@ -68,7 +68,7 @@ After installation, I attempted to start Splunk with:
 sudo /opt/splunk/bin/splunk start --accept-license
 ```
 
-At this point, Splunk displayed a warning about running Splunk Enterprise as root. This led to additional troubleshooting because Splunk did not stay running properly at first.
+At this point, Splunk displayed a warning about running Splunk Enterprise as root. This led to additional troubleshooting because Splunk deprecated root users to run Splunk due to security risks.
 
 ---
 
