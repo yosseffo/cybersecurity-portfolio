@@ -36,9 +36,7 @@ I did not want to run multiple VMs on hardware that already showed signs of batt
 
 This part of the project was not directly cybersecurity-related, but it mattered because the lab depended on the hardware being safe and stable.
 
-### Why this mattered
-
-Replacing the battery helped with:
+Benefits of hardware restoration I noticed:
 
 - Safer operation during longer lab sessions
 - More reliable power behavior
