@@ -167,12 +167,12 @@ Screenshots for this lab are organized into the following folders:
 ```text
 screenshots/
 ├── hardware/
-├── vmware/
+├── kali/
+├── log-ingestion/
+├── metasploitable/
 ├── networking/
 ├── splunk/
-├── kali/
-├── metasploitable/
-└── log-ingestion/
+└── vmware/
 ```
 
 Key screenshots include:
