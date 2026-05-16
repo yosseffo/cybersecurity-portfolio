@@ -6,7 +6,7 @@ This document covers the SIEM setup portion of my homelab project.
 
 The goal was to install Splunk on an Ubuntu Server VM, configure it to receive logs from Metasploitable, and confirm that activity generated from Kali Linux could appear as searchable events inside Splunk.
 
-This part of the lab ended up being the most troubleshooting-heavy section of the project. The main challenges were getting Splunk installed, fixing service startup issues, dealing with disk space problems, and figuring out how to forward logs from Metasploitable’s older syslog service into Splunk.
+This part of the lab ended up having the most troubleshooting in this project. The main challenges were getting Splunk installed, fixing service startup issues, dealing with disk space problems, and figuring out how to forward logs from Metasploitable’s older syslog service into Splunk.
 
 ---
 
@@ -32,7 +32,7 @@ Ubuntu Server was chosen because it is lightweight, commonly used in server envi
 
 The Splunk `.deb` installer was originally downloaded on the macOS host machine.
 
-At first, I tried to move the file into the Ubuntu VM using VMware drag-and-drop and shared folders, but those options were not available because VMware Tools were not installed and running inside the Ubuntu Server VM.
+At first, I tried to move the file into the Ubuntu VM using VMware drag and drop and shared folders, but those options were not available because VMware Tools were not installed and running inside the Ubuntu Server VM.
 
 I also tried using `wget`, but copying and pasting the long Splunk download URL into the VM was unreliable.
 
@@ -411,4 +411,4 @@ The biggest lessons were:
 - Default syslog port behavior matters with legacy systems
 - `iptables` can be used to bridge compatibility gaps
 - Manual test events are useful before troubleshooting real attack logs
-- End-to-end validation is important before assuming a SIEM pipeline works
+- Endpoint validation is important before assuming a SIEM pipeline works
