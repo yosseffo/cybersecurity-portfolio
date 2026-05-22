@@ -231,7 +231,7 @@ I verified that Splunk was listening on UDP port `5515` with:
 sudo ss -ulpn | grep :5515
 ```
 
-<img src="../screenshots/splunk/11-Splunk-ListeningUDP.png" alt="Splunk listening UDP on Port 5515" width="750">
+<img src="../screenshots/splunk/11-Splunk-ListeningUDP.png" alt="Splunk listening UDP on Port 5515" width="850">
 
 This confirmed that Splunk was ready to receive UDP syslog data.
 
