@@ -307,6 +307,8 @@ I verified the redirect rule with:
 sudo iptables -t nat -L PREROUTING -n -v
 ```
 
+<img src="../screenshots/splunk/05-Splunk-ReroutingPort514.png width="750">
+
 This allowed Metasploitable to use its default syslog behavior while Splunk continued listening on the non-privileged port `5515`.
 
 ---
