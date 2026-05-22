@@ -48,7 +48,7 @@ The lab is organized into three main zones:
 
 All virtual machines were moved to VMware Fusion’s **Private to My Mac** network after setup. This kept the vulnerable lab environment isolated from my home network while still allowing the VMs to communicate with each other.
 
-<img src="screenshots/vmware/03-NetworkAdapter-switchedtoPrivate.png" alt="Network Adapter being switched to Private Network in VMware Fusion" width="400">
+<img src="screenshots/vmware/03-NetworkAdapter-switchedtoPrivate.png" alt="Network Adapter being switched to Private Network in VMware Fusion" width="350">
 
 ---
 
