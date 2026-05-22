@@ -102,6 +102,8 @@ Splunk UDP input on port 5515
 Searchable failed SSH event in Splunk
 ```
 
+<img src="screenshots/splunk/15-Splunk-ReceivedFailedLogin.png" alt="Splunk Received Failed Login Attempts" width="850">
+
 This confirmed that attacker activity generated from Kali could be logged by Metasploitable, forwarded into Splunk, and analyzed through Splunk Search.
 
 ---
