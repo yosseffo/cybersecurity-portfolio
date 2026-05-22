@@ -111,7 +111,7 @@ I identified the process using:
 sudo ss -tulpn | grep :8000
 ```
 
-<img src="../screenshots/splunk/11-Splunk-ListeningUDP.png" alt="Splunk listening UDP on Port 5515" width="700">
+<img src="../screenshots/splunk/11-Splunk-ListeningUDP.png" alt="Splunk listening UDP on Port 5515" width="750">
 
 After finding the stale `splunkd` process, I terminated it using its process ID.
 
