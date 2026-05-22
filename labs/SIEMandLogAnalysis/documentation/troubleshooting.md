@@ -273,6 +273,7 @@ Then I scanned the discovered open ports:
 ```bash
 nmap -n -Pn -sV -p 21,22,23,25,80,139,445 <metasploitable-ip>
 ```
+<img src="../screenshots/kali/05-Kali-HostResolutionSolution.png" width="750">
 
 ### Lesson Learned
 
