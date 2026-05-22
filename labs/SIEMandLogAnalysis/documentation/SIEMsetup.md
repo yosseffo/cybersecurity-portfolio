@@ -111,8 +111,6 @@ I identified the process using:
 sudo ss -tulpn | grep :8000
 ```
 
-<img src="../screenshots/splunk/11-Splunk-ListeningUDP.png" alt="Splunk listening UDP on Port 5515" width="750">
-
 After finding the stale `splunkd` process, I terminated it using its process ID.
 
 ```bash
@@ -232,6 +230,8 @@ I verified that Splunk was listening on UDP port `5515` with:
 ```bash
 sudo ss -ulpn | grep :5515
 ```
+
+<img src="../screenshots/splunk/11-Splunk-ListeningUDP.png" alt="Splunk listening UDP on Port 5515" width="750">
 
 This confirmed that Splunk was ready to receive UDP syslog data.
 
