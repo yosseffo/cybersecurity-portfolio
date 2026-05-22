@@ -7,7 +7,6 @@ I am a recent graduate working as a Technical Support Analyst at Genius Sports. 
 My journey in Information Technology has led me to explore a variety of potential careers before developing a passion for cybersecurity. I am now eager to encapsulated myself into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
