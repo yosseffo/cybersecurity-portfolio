@@ -254,7 +254,7 @@ Starting Nmap...
 
 Ping worked, so the target was reachable.
 
-<img src="../screenshots/kali/07-Kali-nmap%20-n%20on%20kali%20not%20starrting%20host%20resoluton.png" width="400">
+<img src="../screenshots/kali/07-Kali-nmap%20-n%20on%20kali%20not%20starrting%20host%20resoluton.png" width="750">
 
 ### Cause
 
