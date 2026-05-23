@@ -168,6 +168,8 @@ Ubuntu Server was used as the base operating system for the Splunk SIEM server.
 
 I chose Ubuntu Server because it is lightweight, commonly used in server environments, and supports Splunk installation through a `.deb` package.
 
+<img src="../screenshots/vmware/02-SCPSplunk.deb-transfer.png" alt="Splunk.deb transfer" width="550">
+
 This VM eventually became the Splunk server responsible for receiving and indexing logs from Metasploitable.
 
 ---
@@ -182,8 +184,6 @@ During setup, I used two different network modes:
 |---|---|
 | NAT / Share with My Mac | Used during installation and setup when internet access was needed |
 | Private to My Mac | Used for the final isolated lab network |
-
-<img src="../screenshots/vmware/03-NetworkAdapter-switchedtoPrivate.png" alt="Network Adapter switched to Private" width="350">
 ---
 
 ## NAT Networking
@@ -204,6 +204,8 @@ NAT was not the final networking mode for the lab. It was mainly used to make se
 ## Private to My Mac Networking
 
 After Splunk was installed and working, I moved the lab to VMware Fusion’s **Private to My Mac** network.
+
+<img src="../screenshots/vmware/03-NetworkAdapter-switchedtoPrivate.png" alt="Network Adapter switched to Private" width="350">
 
 This was the better option for the final lab because it kept the vulnerable environment isolated while still allowing communication between:
 
