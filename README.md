@@ -21,8 +21,8 @@ My journey in Information Technology has led me to explore a variety of potentia
 
 ### Network
 <div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" 
-    <img src="https://img.shields.io/badge/OpenVAS-Vulnerability%20Scanner-3FA037?style=for-the-badge&logo=OpenVAS&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
+    <img src="https://img.shields.io/badge/OpenVAS-3FA037?style=for-the-badge" />
 </div>
 
 ### Endpoint
