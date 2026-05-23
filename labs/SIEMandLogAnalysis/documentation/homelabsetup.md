@@ -118,6 +118,8 @@ The lab was designed around three main systems.
 | Server Zone | Metasploitable | Vulnerable target system |
 | Security Zone | Ubuntu Server + Splunk | SIEM server for log ingestion and analysis |
 
+<img src="../screenshots/vmware/01-VMwareFusionsetup.png" alt="VMwareFusion Setup" width="900">
+
 This setup allowed me to practice both offensive and defensive workflows. Kali was used to generate activity, Metasploitable recorded that activity in its logs, and Splunk was used to ingest and search those logs.
 
 ---
