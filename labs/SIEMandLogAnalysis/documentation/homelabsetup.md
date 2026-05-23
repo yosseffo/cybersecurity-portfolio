@@ -32,7 +32,31 @@ The lab includes:
 
 Before I used this MacBook as a lab host, I had to deal with a hardware issue. The battery was swollen from previous long-term use and storage conditions, so I replaced it before running any virtual machines on the laptop.
 
-<img src="../screenshots/hardware/01-swollenbattery.png" alt="Swollen Battery" width="550" style="transform: rotate(90deg);">
+<table>
+  <tr>
+    <td align="center">
+      <img src="../screenshots/hardware/01-swollenbattery.png" alt="Swollen battery before replacement" width="350"><br>
+      <strong>Swollen Battery Before Replacement</strong>
+    </td>
+    <td align="center">
+      <img src="../screenshots/hardware/02-macbookbatteries.png" alt="MacBook battery components during replacement" width="350"><br>
+      <strong>Battery Replacement Components</strong>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="../screenshots/hardware/03-batteryremoval.png" alt="MacBook battery removal process" width="350"><br>
+      <strong>Battery Removal Process</strong>
+    </td>
+    <td align="center">
+      <img src="../screenshots/hardware/04-batteryreplacement.png" alt="Replacement battery installed in MacBook" width="350"><br>
+      <strong>Replacement Battery Installed</strong>
+    </td>
+  </tr>
+</table>
 
 I did not want to run multiple VMs on hardware that already showed signs of battery failure. Since this machine would be used for longer lab sessions, replacing the battery was an important first step before building the environment.
 
