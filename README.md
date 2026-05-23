@@ -4,18 +4,18 @@
 I am a recent graduate working as a Technical Support Analyst at Genius Sports. I'm looking towards elevating my technical expertise to branch to the field of Cyber Security as I have a passion of protecting the assets of users. 
 
 ## Objective
-My journey in Information Technology has led me to explore a variety of potential careers before developing a passion for cybersecurity. I am now eager to encapsulated myself into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+My journey in Information Technology has led me to explore a variety of potential careers before developing a passion for cybersecurity. I am now eager to encapsulale myself into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
 
 ## Skills
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | SIEM Implementation and Log Analysis          | <a href="https://github.com/yosseffo/cybersecurity-portfolio/tree/main/labs/SIEMandLogAnalysis">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Network Traffic Monitoring and Attack Detection | Under Construction|
+| Security Automation with Shuffle SOAR         | x|
+| Incident Response Planning and Execution      | x|
+| Case Management with TheHive                  | x|
+| Scripting and Automation for Threat Mitigation | x|
 
 ## Tools
 [Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
