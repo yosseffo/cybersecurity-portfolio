@@ -42,6 +42,8 @@ The working solution was to transfer the package from macOS to Ubuntu using SCP.
 scp ~/Desktop/splunk*.deb <ubuntu-user>@<ubuntu-ip>:/home/<ubuntu-user>/
 ```
 
+<img src="../screenshots/vmware/02-SCPSplunk.deb-transfer.png" alt="Splunk.deb" width="600">
+
 This copied the Splunk installer from the MacBook desktop into the Ubuntu VM over SSH.
 
 This was a useful workaround because it avoided relying on VMware shared folders and also gave me practice with secure file transfer between systems.
@@ -83,6 +85,7 @@ sudo useradd -m splunk
 sudo chown -R splunk:splunk /opt/splunk
 sudo /opt/splunk/bin/splunk enable boot-start -user splunk
 ```
+<img src="../screenshots/splunk/06-Splunk-OwnershipChange.png" alt="Splunk User config" width="1050">
 
 After this change, Splunk was able to run more reliably under the dedicated service account.
 
@@ -169,7 +172,7 @@ After resizing, I confirmed the available space with:
 df -h
 ```
 
-<img src="../screenshots/splunk/12-Splunk-Confirmation.png" alt="SIEM Disk" width="900">
+<img src="../screenshots/splunk/12-Splunk-Confirmation.png" alt="SIEM Disk" width="1050">
 
 The root filesystem showed significantly more available space, which allowed Splunk to start properly again.
 
@@ -198,6 +201,7 @@ Then I tested access from macOS using:
 ```bash
 curl http://<splunk-ip>:8000
 ```
+<img src="../screenshots/splunk/03-Splunk-TerminalcurlProof.png" alt="Splunk curl" width="550">
 
 Once the curl test returned HTML, I opened the Splunk web interface in Safari:
 
