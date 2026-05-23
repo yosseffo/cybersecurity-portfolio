@@ -183,6 +183,7 @@ During setup, I used two different network modes:
 | NAT / Share with My Mac | Used during installation and setup when internet access was needed |
 | Private to My Mac | Used for the final isolated lab network |
 
+<img src="../screenshots/vmware/03-NetworkAdapter-switchedtoPrivate.png" alt="Network Adapter switched to Private" width="350">
 ---
 
 ## NAT Networking
