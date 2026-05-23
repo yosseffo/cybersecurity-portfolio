@@ -363,6 +363,10 @@ and:
 index=main "Failed password" OR "Invalid user"
 ```
 
+I also generated a succeeded SSH login attempt in order to confirm that the events on Splunk can show contrast between successfull and failed logins.
+
+<img src="../screenshots/splunk/16-Splunk-ReceivedSuccessfullLogin.png" alt="Splunk Rerouting Port" width="950">
+
 This confirmed that the end-to-end log pipeline was working.
 
 ---
