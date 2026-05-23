@@ -363,7 +363,7 @@ and:
 index=main "Failed password" OR "Invalid user"
 ```
 
-I also generated a succeeded SSH login attempt in order to confirm that the events on Splunk can show contrast between successfull and failed logins.
+I also generated a successful SSH login attempt in order to confirm that the events on Splunk can show contrast between successfull and failed logins.
 
 <img src="../screenshots/splunk/18-Splunk-ReceivedSuccessfullLogin.png" alt="Splunk Rerouting Port" width="950">
 
