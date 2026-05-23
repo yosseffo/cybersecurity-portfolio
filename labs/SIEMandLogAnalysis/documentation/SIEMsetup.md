@@ -324,7 +324,7 @@ This allowed Metasploitable to use its default syslog behavior while Splunk cont
 Before testing SSH logs, I generated a manual syslog message from Metasploitable.
 
 ```bash
-logger "default syslog forwarding test through UDP 514 redirect"
+logger "manual syslog test from metasploitable UDP 5515 redirect"
 ```
 
 This command creates a test syslog message locally on Metasploitable.
@@ -332,8 +332,10 @@ This command creates a test syslog message locally on Metasploitable.
 The event appeared in Splunk using the search:
 
 ```spl
-index=main "default syslog forwarding test"
+index=main "manual syslog test from metasploitable"
 ```
+
+<img src="../screenshots/splunk/16-Splunk-ReceivedForwardTest.png" width="950">
 
 This confirmed that:
 
