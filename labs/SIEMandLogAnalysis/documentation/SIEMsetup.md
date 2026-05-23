@@ -169,6 +169,8 @@ After resizing, I confirmed the available space with:
 df -h
 ```
 
+<img src="../screenshots/splunk/12-Splunk-Confirmation.png" alt="SIEM Disk" width="900">
+
 The root filesystem showed significantly more available space, which allowed Splunk to start properly again.
 
 This was one of the most useful troubleshooting moments in the lab because it showed the difference between increasing a virtual disk and actually expanding the guest operating system’s usable filesystem.
