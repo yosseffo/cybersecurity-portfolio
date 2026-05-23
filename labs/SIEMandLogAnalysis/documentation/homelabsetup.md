@@ -71,10 +71,6 @@ Benefits of hardware restoration I noticed:
 
 Photos were taken during the battery replacement process and will be stored under:
 
-```text
-screenshots/hardware/
-```
-
 ---
 
 ## Host Operating System Upgrade
