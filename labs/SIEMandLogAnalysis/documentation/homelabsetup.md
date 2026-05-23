@@ -168,8 +168,6 @@ Ubuntu Server was used as the base operating system for the Splunk SIEM server.
 
 I chose Ubuntu Server because it is lightweight, commonly used in server environments, and supports Splunk installation through a `.deb` package.
 
-<img src="../screenshots/vmware/02-SCPSplunk.deb-transfer.png" alt="Splunk.deb transfer" width="550">
-
 This VM eventually became the Splunk server responsible for receiving and indexing logs from Metasploitable.
 
 ---
