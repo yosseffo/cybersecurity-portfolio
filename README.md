@@ -17,6 +17,7 @@ My journey in Information Technology has led me to explore a variety of potentia
 | Case Management with TheHive                  | x|
 | Scripting and Automation for Threat Mitigation | x|
 | Infrastructure Heartbeat & Incident Monitor | <a href="https://github.com/yosseffo/cybersecurity-portfolio/tree/main/projects/infrastructure-heartbeat-monitor">Automation Tool</a>|
+| API Reverse-Engineering & Secure Streaming Automation | <a href="https://github.com/yosseffo/cybersecurity-portfolio/tree/main/projects/api-reverse-engineering-bot">NBA Bot</a>|
 
 ## Tools
 
