@@ -16,6 +16,7 @@ My journey in Information Technology has led me to explore a variety of potentia
 | Incident Response Planning and Execution      | x|
 | Case Management with TheHive                  | x|
 | Scripting and Automation for Threat Mitigation | x|
+| Infrastructure Heartbeat & Incident Monitor | <a href="https://github.com/yosseffo/cybersecurity-portfolio/tree/main/projects/infrastructure-heartbeat-monitor">Automation Tool</a>|
 
 ## Tools
 
