@@ -22,4 +22,4 @@ This designed tool listens to live WebSocket data and pushes accurate milestone 
 3. Running script via PowerShell ISE to avoid local file execution blocks
 
 ## Lessons Learned
-- During this project I was able to learn a lot in regards to reading JSON payloads and utilizing webhooks as well as web sockets. I also learned that automating the incident timeline helped to mitigate human error significantly while also allowing the team to focus entirely on other tasks that require human interaction processes. 
+During this project I was able to learn a lot in regards to reading JSON payloads and utilizing webhooks as well as web sockets. I also learned that automating the incident timeline helped to mitigate human error significantly while also allowing the team to focus entirely on other tasks that require human interaction processes. 
