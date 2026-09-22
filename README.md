@@ -17,7 +17,7 @@ My journey in Information Technology has led me to explore a variety of potentia
 | Case Management with TheHive                  | x|
 | Scripting and Automation for Threat Mitigation | x|
 | Incident Timeline and Event Logger | <a href="https://github.com/yosseffo/cybersecurity-portfolio/tree/main/projects/incident-timeline-%26-event-logger">Scorebot</a>|
-| Data Supply Chain and Latency Anomaly Monitor | <a href="https://github.com/yosseffo/cybersecurity-portfolio/tree/main/projects/data-%26-latency-anomaly">Heartbeat Monitor</a>|
+| Data Supply Chain and Latency Monitor | <a href="https://github.com/yosseffo/cybersecurity-portfolio/tree/main/projects/data-%26-latency-anomaly">Heartbeat Monitor</a>|
 
 ## Tools
 
